@@ -1,6 +1,6 @@
 ![LambdaTest Logo](https://www.lambdatest.com/static/images/logo.svg)
 ---
-# protractor-selenium-sample
+# Running Protector Selenium Azure on LambdaTest With Examples
 
 ### Environment Setup
 
