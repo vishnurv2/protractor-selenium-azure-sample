@@ -22,6 +22,7 @@ steps:
 - script: |
     npm install
     npm install -g protractor
+    LT  --user vishnukdas@lambdatest.com --key D3tRgjqJOrG7GKCmdIkafAP7uUbPfiK3SaWXTWdjX3vhglk2yd
     cd conf
     protractor single.conf.js
   displayName: 'npm install and build'
