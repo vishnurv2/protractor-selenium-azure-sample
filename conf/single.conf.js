@@ -8,14 +8,15 @@ exports.config = {
   seleniumAddress: 'https://'+ username +':'+ accessKey  +'@hub.lambdatest.com/wd/hub',
 
   'capabilities': {
-    'build': 'protractor-LambdaTest-Single',
+    'build': 'protractor-Azure DevOps',
     'browserName': 'chrome',
-    'version':'67.0',
+    'version':'latest',
     'platform': 'WIN10',
     'video': true,
     'network': true,
     'console': true,
-    'visual': true
+    'visual': true,
+    'tunnel': true
   },
   onPrepare: () => {
 
