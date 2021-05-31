@@ -21,7 +21,8 @@ steps:
 
 - task: configuration@1
   inputs:
-    isTunnelActivate: false
+    connection: 'Tunnel'
+    isTunnelActivate: true
 
 - script: |
     npm install
