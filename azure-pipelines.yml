@@ -31,4 +31,6 @@ steps:
     protractor single.conf.js
   displayName: 'npm install and build'
 
-- task: stoptunnel@1
+- task: Lambdatest.lambda-azure-pipeline-extention.showResults-task.LambdatestResults@1
+  displayName: 'Lambdatest Results'
+
