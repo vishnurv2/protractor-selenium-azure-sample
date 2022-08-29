@@ -16,7 +16,7 @@ exports.config = {
     'network': true,
     'console': true,
     'visual': true,
-    'tunnel': true
+    'tunnel': false
   },
   onPrepare: () => {
 
