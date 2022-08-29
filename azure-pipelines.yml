@@ -10,8 +10,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  LT_USERNAME: "YOUR USERNAME HERE"
-  LT_ACCESS_KEY: "YOUR ACCESS KEY HERE"
+  LT_USERNAME: $(LT_USERNAME)
+  LT_ACCESS_KEY: $(LT_ACCESS_KEY)
 
 steps:
 - task: NodeTool@0
