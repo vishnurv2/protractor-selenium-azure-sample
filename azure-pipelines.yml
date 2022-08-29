@@ -22,7 +22,7 @@ steps:
 - task: configuration@1
   inputs:
     connection: 'Tunnel'
-    isTunnelActivate: true
+    isTunnelActivate: false
 
 - script: |
     npm install
