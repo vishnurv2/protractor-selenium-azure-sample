@@ -8,7 +8,7 @@ exports.config = {
   seleniumAddress: 'https://'+ username +':'+ accessKey  +'@hub.lambdatest.com/wd/hub',
 
   'capabilities': {
-    'build': 'protractor-Azure DevOps',
+    'build': process.env.LT_BUILD_NAME,
     'browserName': 'chrome',
     'version':'latest',
     'platform': 'WIN10',
