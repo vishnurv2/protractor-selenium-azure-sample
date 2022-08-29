@@ -5,7 +5,7 @@ accessKey=  process.env.LT_ACCESS_KEY,
 exports.config = {
   'specs': ['../specs/single.js'],
 
-  seleniumAddress: 'https://'+ 'vishnurv2' +':'+ '2dEK8rin7XC3cChRqccFoMlcC9FwPNloQdqV9c4y7vFUAnAB18'  +'@hub.lambdatest.com/wd/hub',
+  seleniumAddress: 'https://'+ username +':'+ accessKey  +'@hub.lambdatest.com/wd/hub',
 
   'capabilities': {
     'build': process.env.LT_BUILD_NAME,
