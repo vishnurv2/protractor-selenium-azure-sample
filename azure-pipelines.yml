@@ -25,6 +25,8 @@ steps:
     isTunnelActivate: false
 
 - script: |
+    env:
+        LT_BUILD_NAME: "custombuildname"
     npm install
     npm install -g protractor
     cd conf
