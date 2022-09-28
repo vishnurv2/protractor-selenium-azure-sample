@@ -27,6 +27,8 @@ steps:
 - script: |
     env:
         LT_BUILD_NAME: "custombuildname"
+        LT_USERNAME: $LT_USERNAME
+        LT_ACCESS_KEY: $LT_ACCESS_KEY
     npm install
     npm install -g protractor
     cd conf
